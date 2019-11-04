@@ -282,6 +282,8 @@ footer{
 
 }
 
+/* ========MEDIA QUERIES========== */
+
 
 @media all and (max-width: 800px) {
 
@@ -320,7 +322,7 @@ footer{
    .section1{
        display:block;
        text-align: center;
-       height:40vh;
+       margin-bottom:10%;
 
    }
 
@@ -345,7 +347,7 @@ footer{
     }
 
     header {
-        margin: 15% 0%;
+        margin: 20% 0%;
     }
   
    
@@ -387,7 +389,7 @@ footer{
 
     .section1{
         text-align:center;
-        height:30vh;
+        height:40%;
     }
 
     .intro-sub{
@@ -398,6 +400,7 @@ footer{
         display:flex;
         flex-wrap: wrap;
         padding:2%;
+        height:60%;
         
     }
     .details,.picture, .additional-info{
@@ -418,5 +421,15 @@ footer{
         display:none;
     }
 
+
+    /* Service section */
+
+    .main-div {
+		width:100%;
+    }
+    
+    .bottom-div{
+        width:100%;
+    }
 
   }
