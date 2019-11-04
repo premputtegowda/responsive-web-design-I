@@ -134,8 +134,9 @@ nav a{
 	.intro button {
 	
 	border: 1px solid black;
-	padding:2%;
-	font-size:120%;
+	padding:2% 20%;
+    
+    
 	}
 	/* image */
 	/* x1 */
@@ -331,4 +332,89 @@ footer{
 	
 	
 	
+  }
+
+
+  @media all and (max-width:500px) {
+
+    body{
+        width:80%;
+        max-width:100%;
+    }
+
+    header {
+        margin: 15% 0%;
+    }
+  
+   
+    nav div{
+        margin:2%;
+    }
+
+    nav{
+        
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+
+        
+    }
+
+    .logo-container {
+        width:100%;
+        text-align:center;
+    }
+
+    nav .links{
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 2%;
+        width:100%
+        
+    }
+    
+    nav a{
+        border-bottom: 1px solid grey;
+        width:100%;
+        text-align:center;
+        padding:2%;
+       
+    }
+
+    .section1{
+        text-align:center;
+        height:30vh;
+    }
+
+    .intro-sub{
+        padding:0 25%;
+    }
+    
+    .section2 {
+        display:flex;
+        flex-wrap: wrap;
+        padding:2%;
+        
+    }
+    .details,.picture, .additional-info{
+        width:100%;
+        padding:2%;
+    }
+
+    .contact {
+        display:block;
+        text-align: center;
+
+    }
+
+    .address-info {
+        text-align:center;
+    }
+    .intro.intro2{
+        display:none;
+    }
+
+
   }
